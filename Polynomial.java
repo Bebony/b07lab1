@@ -129,7 +129,7 @@ public class Polynomial {
                 polynomial = polynomial + "x" + exponents[i];
             }
         }
-        java.io.PrintStream output = new PrintStream(file);
+        PrintStream output = new PrintStream(file);
         output.print(polynomial);
         output.close();
     }
